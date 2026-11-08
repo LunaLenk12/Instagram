@@ -1,7 +1,7 @@
 "use client"
 import { Input } from "@/components/ui/input"
 import { useState } from "react"
-import { supabaseClient } from "../supabase"
+import { supabaseClient } from "../supabase/client"
 import { Grand_Hotel } from "next/font/google"
 
 const grandHotel = Grand_Hotel({

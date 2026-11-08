@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
-import { supabaseClient } from "../supabase"
+import { supabaseClient } from "../supabase/client"
 import { toast } from "@/components/ui/toast"
 import { Grand_Hotel } from "next/font/google"
 
