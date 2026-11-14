@@ -67,6 +67,7 @@ const Page = () => {
       password: userInfo.password,
     });
     const userId = response.data.user.id;
+    setTimeout(() => router.push("login"), 1000)
 
     //     if(response.error){
     //      toast.add({
@@ -86,6 +87,7 @@ const Page = () => {
       type: "success",
       description: "Your account has been created",
     });
+
   };
 
   return (

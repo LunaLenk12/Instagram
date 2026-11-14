@@ -63,11 +63,13 @@ const Page = () => {
       email: userInfo.email,
       password: userInfo.password,
     })
+    
     toast.add({
       title: "Congrats Welcome",
       type: "success",
       description: "You have successfully logged in",
     })
+    setTimeout(() => router.push("create-post"), 1000)
   }
 
   return (
